@@ -1,0 +1,7 @@
+{
+	  "id"        : "preside-ext-pirate"
+	, "title"     : "Pirate"
+	, "author"    : "Dom Watson"
+	, "version"   : "$VERSION_NUMBER"
+	, "dependsOn" : []
+}
