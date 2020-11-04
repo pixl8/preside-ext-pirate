@@ -24,11 +24,11 @@ jobs:
           fetch-depth: 0
 
       - name: Install dependencies
-        uses: pixl8/github-action-box-install@minibox-alpha1
+        uses: pixl8/github-action-box-install@minibox-alpha2
 
       # Uncomment to use test flow
       - name: Run tests
-        uses: pixl8/github-action-box-test@minibox-alpha1
+        uses: pixl8/github-action-box-test@minibox-alpha2
         with:
           test_dir: /tests
           test_server_json: /server-tests.json
@@ -107,7 +107,7 @@ jobs:
 
       - name: Publish to forgebox
         if: "env.PUBLISH == 'true'"
-        uses: pixl8/github-action-box-publish@minibox-alpha1
+        uses: pixl8/github-action-box-publish@minibox-alpha2
         with:
           forgebox_user: ${{ secrets.FORGEBOX_USER }}
           forgebox_pass: ${{ secrets.FORGEBOX_PASS }}
