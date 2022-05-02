@@ -111,4 +111,4 @@ jobs:
         with:
           forgebox_user: ${{ secrets.FORGEBOX_USER }}
           forgebox_pass: ${{ secrets.FORGEBOX_PASS }}
-          force: "true"
+          force: "false"
